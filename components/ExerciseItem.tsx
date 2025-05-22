@@ -1,10 +1,10 @@
-import { TouchableOpacity, Text } from 'react-native'
-import { Exercise } from '@/types/exercise'
+import type { Exercise } from '@/types/exercise'
 import { ReactNode } from 'react'
+import { Text, TouchableOpacity } from 'react-native'
 
 interface ExerciseItemProps {
-  exercise: Exercise;
-  onSelect: (exercise: Exercise) => void;
+  exercise: Exercise
+  onSelect: (exercise: Exercise) => void
 }
 
 export function ExerciseItem({ exercise, onSelect }: ExerciseItemProps) {
@@ -15,5 +15,5 @@ export function ExerciseItem({ exercise, onSelect }: ExerciseItemProps) {
     >
       <Text className="text-white text-lg">{exercise.title}</Text>
     </TouchableOpacity>
-  );
+  )
 }
