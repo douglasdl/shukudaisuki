@@ -5,8 +5,20 @@ export const exercises: Exercise[] = [
     id: '1',
     title: '1. Colors',
     conversation: [
-      { speaker: 'A', text: 'What color is this?' },
+      { speaker: 'A', text: 'What color is this? 🔵' },
       { speaker: 'B', text: "It's blue!" },
+      { speaker: 'A', text: 'What color is this? 🔴' },
+      { speaker: 'B', text: "It's red!" },
+      { speaker: 'A', text: 'What color is this? 🟢' },
+      { speaker: 'B', text: "It's green!" },
+      { speaker: 'A', text: 'What color is this? 🟡' },
+      { speaker: 'B', text: "It's yellow!" },
+      { speaker: 'A', text: 'What color is this? 🟠' },
+      { speaker: 'B', text: "It's orange!" },
+      { speaker: 'A', text: 'What color is this? ⚫️' },
+      { speaker: 'B', text: "It's black!" },
+      { speaker: 'A', text: 'What color is this? ⚪️' },
+      { speaker: 'B', text: "It's white!" },
     ],
   },
   {
@@ -23,14 +35,6 @@ export const exercises: Exercise[] = [
     conversation: [
       { speaker: 'A', text: 'I like pancakes.' },
       { speaker: 'B', text: 'Me too! Yummy!' },
-    ],
-  },
-  {
-    id: '4',
-    title: '4. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
     ],
   },
   {
@@ -71,14 +75,6 @@ export const exercises: Exercise[] = [
     conversation: [
       { speaker: 'A', text: 'It’s raining!' },
       { speaker: 'B', text: 'Take your umbrella.' },
-    ],
-  },
-  {
-    id: '10',
-    title: '10. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
     ],
   },
   {
@@ -154,14 +150,6 @@ export const exercises: Exercise[] = [
     ],
   },
   {
-    id: '20',
-    title: '20. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
-    ],
-  },
-  {
     id: '21',
     title: '21. At the Library',
     conversation: [
@@ -186,14 +174,6 @@ export const exercises: Exercise[] = [
     ],
   },
   {
-    id: '24',
-    title: '24. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
-    ],
-  },
-  {
     id: '25',
     title: '25. Rainy Day',
     conversation: [
@@ -215,14 +195,6 @@ export const exercises: Exercise[] = [
     conversation: [
       { speaker: 'A', text: 'Do you have a pet?' },
       { speaker: 'B', text: 'Yes, a dog!' },
-    ],
-  },
-  {
-    id: '28',
-    title: '28. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
     ],
   },
   {
@@ -290,14 +262,6 @@ export const exercises: Exercise[] = [
     ],
   },
   {
-    id: '37',
-    title: '37. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
-    ],
-  },
-  {
     id: '38',
     title: '38. Rainy Day',
     conversation: [
@@ -330,14 +294,6 @@ export const exercises: Exercise[] = [
     ],
   },
   {
-    id: '42',
-    title: '42. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
-    ],
-  },
-  {
     id: '43',
     title: '43. Sports',
     conversation: [
@@ -351,14 +307,6 @@ export const exercises: Exercise[] = [
     conversation: [
       { speaker: 'A', text: 'Can I borrow this book?' },
       { speaker: 'B', text: 'Sure!' },
-    ],
-  },
-  {
-    id: '45',
-    title: '45. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
     ],
   },
   {
@@ -474,14 +422,6 @@ export const exercises: Exercise[] = [
     ],
   },
   {
-    id: '60',
-    title: '60. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
-    ],
-  },
-  {
     id: '61',
     title: '61. Breakfast Time',
     conversation: [
@@ -511,14 +451,6 @@ export const exercises: Exercise[] = [
     conversation: [
       { speaker: 'A', text: 'I like pancakes.' },
       { speaker: 'B', text: 'Me too! Yummy!' },
-    ],
-  },
-  {
-    id: '65',
-    title: '65. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
     ],
   },
   {
@@ -583,14 +515,6 @@ export const exercises: Exercise[] = [
     conversation: [
       { speaker: 'A', text: 'Happy birthday!' },
       { speaker: 'B', text: 'Thank you!' },
-    ],
-  },
-  {
-    id: '74',
-    title: '74. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
     ],
   },
   {
@@ -663,14 +587,6 @@ export const exercises: Exercise[] = [
     conversation: [
       { speaker: 'A', text: "Look! It's a lion!" },
       { speaker: 'B', text: 'Wow! Lions are so big!' },
-    ],
-  },
-  {
-    id: '84',
-    title: '84. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
     ],
   },
   {
@@ -754,14 +670,6 @@ export const exercises: Exercise[] = [
     ],
   },
   {
-    id: '95',
-    title: '95. Colors',
-    conversation: [
-      { speaker: 'A', text: 'What color is this?' },
-      { speaker: 'B', text: "It's blue!" },
-    ],
-  },
-  {
     id: '96',
     title: '96. In the Classroom',
     conversation: [
@@ -799,6 +707,171 @@ export const exercises: Exercise[] = [
     conversation: [
       { speaker: 'A', text: 'Let’s play soccer!' },
       { speaker: 'B', text: 'Great idea!' },
+    ],
+  },
+]
+
+export interface QuestionGroup {
+  id: string
+  titleEn: string
+  titleJp: string
+  type:
+    | 'fillInTheBlanks'
+    | 'negativeForm'
+    | 'reorderLetters'
+    | 'multipleChoice'
+    | 'writeYourOwn'
+  items:
+    | FillInTheBlanksItem[]
+    | NegativeFormItem[]
+    | ReorderLettersItem[]
+    | MultipleChoiceItem[]
+    | WriteYourOwnItem[]
+}
+
+export interface FillInTheBlanksItem {
+  question: string
+  answer: string
+}
+
+export interface NegativeFormItem {
+  question: string
+  answers: string[]
+}
+
+export interface ReorderLettersItem {
+  scrambled: string
+  answer: string
+}
+
+export interface MultipleChoiceItem {
+  question: string
+  options: string[]
+  answer: string
+}
+
+export interface WriteYourOwnItem {
+  question: string
+  placeholder: string
+}
+
+export const questions: QuestionGroup[] = [
+  {
+    id: '📝 1',
+    titleEn: 'Fill in the blanks with the correct word.',
+    titleJp: '空欄に入る言葉を選びましょう。',
+    type: 'fillInTheBlanks',
+    items: [
+      { question: 'This ___ a pen.', answer: 'is' },
+      { question: 'She ___ a teacher.', answer: 'is' },
+      { question: 'I ___ happy.', answer: 'am' },
+      { question: 'They ___ students.', answer: 'are' },
+      { question: 'He ___ not a doctor.', answer: 'is' },
+    ],
+  },
+  {
+    id: '❌ 2',
+    titleEn: 'Change the sentence to the negative form.',
+    titleJp: '文を否定文に直しましょう。',
+    type: 'negativeForm',
+    items: [
+      {
+        question: 'This is a pen.',
+        answers: ['This is not a pen.', 'This isn’t a pen.'],
+      },
+      {
+        question: 'She is a student.',
+        answers: ['She is not a student.', 'She isn’t a student.'],
+      },
+      {
+        question: 'It is hot today.',
+        answers: ['It is not hot today.', 'It isn’t hot today.'],
+      },
+      {
+        question: 'He is a teacher.',
+        answers: ['He is not a teacher.', 'He isn’t a teacher.'],
+      },
+      {
+        question: 'I am happy.',
+        answers: ['I am not happy.'],
+      },
+    ],
+  },
+  {
+    id: '🔤 3',
+    titleEn: 'Put the letters in the correct order to make a word.',
+    titleJp: 'アルファベットを並び替えて、正しい単語にしましょう。',
+    type: 'reorderLetters',
+    items: [
+      { scrambled: 'nlecpi', answer: 'pencil' },
+      { scrambled: 'oekntobo', answer: 'notebook' },
+      { scrambled: 'sreera', answer: 'eraser' },
+      { scrambled: 'lipc', answer: 'clip' },
+      { scrambled: 'elurr', answer: 'ruler' },
+    ],
+  },
+  {
+    id: '✅ 4',
+    titleEn: 'Choose the correct answer.',
+    titleJp: '正しい答えを選びましょう。',
+    type: 'multipleChoice',
+    items: [
+      {
+        question: 'How much is the pencil?',
+        options: [
+          'It’s 2 centimeters.',
+          'It’s two dollars.',
+          'It’s four years.',
+        ],
+        answer: 'It’s two dollars.',
+      },
+      {
+        question: 'How far is your school?',
+        options: [
+          'It’s 2 kilometers.',
+          'It’s ten minutes.',
+          'It’s three pencils.',
+        ],
+        answer: 'It’s 2 kilometers.',
+      },
+      {
+        question: 'How long is the class?',
+        options: ['One hour.', 'Three pens.', 'Two notebooks.'],
+        answer: 'One hour.',
+      },
+      {
+        question: 'How often do you eat sushi?',
+        options: [
+          'I eat sushi every week.',
+          'I eat sushi two pencils.',
+          'I eat sushi six dollars.',
+        ],
+        answer: 'I eat sushi every week.',
+      },
+    ],
+  },
+  {
+    id: '✍️ 5',
+    titleEn: 'Write your own answer.',
+    titleJp: '自分の答えを書きましょう。',
+    type: 'writeYourOwn',
+    items: [
+      {
+        question: 'What do you have in your bag?',
+        placeholder: 'I have a ____________.',
+      },
+      {
+        question: 'How much is your notebook?',
+        placeholder: 'It is ____________.',
+      },
+      {
+        question: 'How far is your home from school?',
+        placeholder: 'It is ____________.',
+      },
+      {
+        question: 'How often do you play games?',
+        placeholder: 'I play games ____________.',
+      },
     ],
   },
 ]
